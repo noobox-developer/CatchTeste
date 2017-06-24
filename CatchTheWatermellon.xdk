@@ -1,0 +1,245 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "Construct2",
+      "projectGuid": "7bac590e-6e74-43bf-b350-691181b8f050",
+      "lastModifiedDate": 1498253882142,
+      "creationDate": 1498252588000
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-device",
+        "originType": "cordova.io",
+        "version": "1.1.2",
+        "selectedState": "Included",
+        "name": "Device",
+        "origin": "cordova-plugin-device",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "2373ccea",
+        "gitref": "",
+        "description": "Cordova Device Plugin"
+      },
+      {
+        "id": "cordova-plugin-inappbrowser",
+        "originType": "cordova.io",
+        "version": "1.4.0",
+        "selectedState": "Included",
+        "name": "InAppBrowser",
+        "origin": "cordova-plugin-inappbrowser",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "f88bc51f",
+        "gitref": "",
+        "cordovaVersion": ">=3.1.0",
+        "description": "Cordova InAppBrowser Plugin"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "originType": "cordova.io",
+        "version": "3.2.2",
+        "selectedState": "Included",
+        "name": "Splashscreen",
+        "origin": "cordova-plugin-splashscreen",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "47137083",
+        "gitref": "",
+        "cordovaVersion": ">=3.1.0",
+        "description": "Cordova Splashscreen Plugin"
+      },
+      {
+        "id": "cordova-plugin-statusbar",
+        "originType": "cordova.io",
+        "version": "2.1.3",
+        "selectedState": "Included",
+        "name": "StatusBar",
+        "origin": "cordova-plugin-statusbar",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "c0146fbc",
+        "gitref": "",
+        "cordovaVersion": ">=3.0.0",
+        "description": "Cordova StatusBar Plugin"
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "16",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "android-signed": true,
+          "Fullscreen": true,
+          "Orientation": "landscape"
+        },
+        "isActive_": true,
+        "certificateId_": "cWnNcTRGh0aKIae-Zii-gA2",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "19",
+        "appName_": "CatchTheWatermellon",
+        "appID_": "c.c.c",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "appVersion_": "1.0.0.0",
+        "appVersionCode_": "1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "landscape",
+          "deployment-target": "8.0"
+        },
+        "isActive_": false,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "appName_": "CatchTheWatermellon",
+        "appID_": "c.c.c",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "appVersion_": "1.0.0.0",
+        "appVersionCode_": "1"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+          "Fullscreen": true,
+          "Orientation": "landscape"
+        },
+        "isActive_": false,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "appName_": "CatchTheWatermellon",
+        "appID_": "c.c.c",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "appVersion_": "1.0.0.0",
+        "appVersionCode_": "1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "CatchTheWatermellon",
+        "appID_": "c.c.c",
+        "appVersion_": "1.0.0.0"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "CatchTheWatermellon",
+        "appID_": "c.c.c",
+        "appVersion_": "1.0.0.0",
+        "icons_": [],
+        "splashes_": []
+      }
+    },
+    "testDirectory": "test",
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {},
+    "serviceMethods": []
+  }
+}
